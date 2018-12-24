@@ -1,0 +1,30 @@
+DirectoryIndex mintaframework.php
+<IfModule mod_rewrite.c>
+
+############################################
+## enable rewrites
+
+    Options +FollowSymLinks
+    RewriteEngine on
+
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-l
+
+############################################
+## rewrite everything else to mintaframework.php
+
+    RewriteRule .* mintaframework.php [L]
+    
+</IfModule>
+
+AddDefaultCharset UTF-8
+
+
+############################################
+## By default allow all access
+
+    Order allow,deny
+    Allow from all

@@ -1,0 +1,9 @@
+[26-Jun-2014 11:48:39 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/chuantin/public_html/giaphaviet/model/header.php on line 4
+[26-Jun-2014 11:48:39 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/chuantin/public_html/giaphaviet/model/footer.php on line 5
+[26-Jun-2014 11:48:45 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/chuantin/public_html/giaphaviet/model/header.php on line 4
+[26-Jun-2014 11:48:45 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/chuantin/public_html/giaphaviet/model/footer.php on line 5
+[26-Jun-2014 11:49:09 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/chuantin/public_html/giaphaviet/model/header.php on line 4
+[26-Jun-2014 11:49:09 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/chuantin/public_html/giaphaviet/model/footer.php on line 5
+[27-Jun-2014 03:24:16 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/chuantin/public_html/giaphaviet/model/header.php on line 4
+[27-Jun-2014 03:24:16 UTC] PHP Warning:  mysql_num_rows() expects parameter 1 to be resource, boolean given in /home/chuantin/public_html/giaphaviet/users/mintaframework.php on line 112
+[27-Jun-2014 03:24:16 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/chuantin/public_html/giaphaviet/model/footer.php on line 5

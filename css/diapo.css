@@ -1,0 +1,166 @@
+#pix_diapo {
+	background: #fff;
+	border-bottom: 1px solid #fff;
+	height: 100%;
+	margin: 0px;
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+	border-radius: 8px 8px 8px 8px;
+}
+
+#pix_diapo > div {
+	display: none;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	border-radius: 10px 10px 10px 10px;
+}
+
+#pix_prev, #pix_next {
+	cursor: pointer;
+	display: block;
+	height: 40px;
+	margin-top: -20px;
+	position: absolute;
+	top: 50%;
+	width: 40px;
+	z-index: 1001;
+}
+#pix_prev {
+	background: url('../images/diapo/prev.png') no-repeat;
+	left: 10px;
+}
+#pix_next {
+	background: url('../images/diapo/next.png') no-repeat;
+	left: auto!important;
+	right: 10px!important;
+}
+#pix_pag {
+	position: absolute;
+	bottom: 15px;
+	width: 90%;
+	height: 30px;
+	z-index: 1002;
+	border-radius: 0px 10px 10px 0px;
+	background: rgba(255,255,255,0.5);
+}
+#pix_commands {
+	cursor: pointer;
+	display: block;
+	float: left;
+	height: 26px;
+	margin: 5px 0 0 13px;
+	position: relative;
+	width: 24px;
+}
+#pix_play {
+	background: url('../images/diapo/play.png') center no-repeat;
+	height: 24px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 24px;
+}
+#pix_stop {
+	background: url('../images/diapo/pause.png') center no-repeat;
+	height: 24px;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 24px;
+}
+#pix_pag_ul {
+	float: right;
+	margin: 0px 10px;
+	padding: 0;
+}
+#pix_pag_ul > li {
+	cursor: pointer;
+	display: inline-block;
+	float: left;
+	list-style: none;
+	margin: 0 10px 0 0;
+	padding: 10px 8px 0;
+	text-align: center;
+	text-indent: -9999px;
+	width: 16px;
+}
+#pix_pag_ul > li > span {
+	background: #222;
+	border-radius: 8px;
+	display: block;
+	height: 16px;
+	width: 16px;
+}
+#pix_pag_ul > li:hover > span > span {
+	background: #ccc;
+}
+#pix_pag_ul > li > span > span {
+	border-radius: 8px;
+	display: block;
+	float: left;
+	height: 8px;
+	margin: 4px;
+	width: 8px;
+}
+#pix_pag_ul > li.diapocurrent > span > span {
+	background: #ff0;
+	border-radius: 8px;
+}
+#pix_pag_ul > li > .pix_thumb {
+	border: 4px solid #f2f2f2;
+	box-shadow: 0 1px 8px #000;
+	height: 58px;
+ 	left: -20px;
+	position: absolute;
+	top: -40px;
+	width: 100px;
+}
+#pix_pag_ul > li > .thumb_arrow {
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid  #e6e6e6;
+	top: 26px;
+	left: 12px;
+	position: absolute;
+}
+.pix_relativize {
+	overflow: hidden;
+	position: relative;
+}
+
+.pix_relativize {
+	overflow: hidden;
+	position: relative;
+}
+
+.pix_relativize img{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px 10px 10px 10px;
+}
+
+.imgFake {
+	cursor: pointer;
+}
+.elemHover {
+	position: absolute;
+}
+.caption {
+	background: rgba(255, 255, 255, 0.5);
+	top: 10px;
+	color: #9a1919;
+	font-weight: bold;
+	display: block;
+	font-size: 15px;
+	text-align: left;
+	padding: 5px;
+	width: 100%;
+	height: 15px;
+}
+.ui-loader {
+	display: none;
+}
